@@ -1,0 +1,17 @@
+{
+  "name": "@gloryfham/mcp-domestic-insurance",
+  "version": "1.0.0",
+  "description": "Glory 国内保险产品 MCP Server — 提供互联网+线下渠道保险产品查询能力",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "gloryfham-mcp-domestic-insurance": "./bin/mcp.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  }
+}
